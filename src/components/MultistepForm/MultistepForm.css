@@ -1,0 +1,22 @@
+.MuiButton-containedPrimary {
+    background-color: #ff595e !important;
+}
+.MuiButton-containedPrimary:hover {
+    background-color: #fd454b !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #ff595e !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #ff595e !important;
+}
+
+@media all and (max-width: 400px){
+    .multistepForm .MuiStepper-root {
+        padding: 0px !important;
+        margin-left: -12px !important;
+    }
+    .multistepForm__button{
+        font-size: 11px !important;
+    }
+}

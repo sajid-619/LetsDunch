@@ -1,0 +1,21 @@
+
+
+.reviewDate{
+    font-size: 12px;
+}
+.reviewerName{
+    margin-bottom: 0 !important;
+}
+.review{
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+}
+.review .MuiSvgIcon-root {
+    font-size: 1rem !important;
+    margin-left: 2px !important;
+    color: #ff595e  !important;
+}
+.reviewDescription{
+    margin-top: 10px;
+}

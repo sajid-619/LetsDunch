@@ -1,0 +1,95 @@
+.read-more-button {
+    color: #ff595e;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* .displayed-text{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    position: absolute;
+    bottom: 0px;
+    height: 10%;
+    width: 90%;
+    z-index: 50;
+} */
+
+.hoster-name {
+    float: right;
+    font-style: italic;
+}
+.menu-box {
+    text-align: center;
+}
+.menu-box hr {
+    width: 180px;
+    margin: 20px auto;
+}
+
+.category span{
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+.eventLeftSection__hosted{
+    color:gray;
+}
+.eventLeftSection__hosted span{
+    color: #ff595e;
+}
+
+.row-box-info span{
+    font-size: 14px;
+    color:gray;
+}
+.row-box-info p{
+    margin-bottom: 0;
+}
+.row-box-info {
+    margin-left: 15px;
+}
+.icon .MuiSvgIcon-root{
+    color: #ff595e !important;
+}
+.experience-details{
+    margin-bottom: 20px;
+}
+.hoster-name{
+    color:gray;
+}
+
+#readMore{
+    color: #ff595e;
+    cursor: pointer;
+}
+.expectBox__container{
+    margin-top: 50px;
+}
+
+.cta-section .cta-container{
+    background: #d3d3d37a;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.action-selected{
+    color: #ff595e;
+    background: #ff595e33 !important;
+}
+
+.cta-section .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+a{
+    color:black !important;
+}
+a:hover{
+    color:black !important;
+}

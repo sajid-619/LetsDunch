@@ -1,0 +1,77 @@
+.privateEventsReviews {
+    background: linear-gradient(180deg, rgba(65, 74, 85, 0) 50%, #414a55), url("../../img/private-events-review.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+    background-position: 20% 33%;
+    overflow: hidden;
+}
+.number {
+    font-size: 46px;
+    letter-spacing: 4px;
+}
+.BulkAvatar {
+    min-width: 74px;
+    max-width: 74px;
+    min-height: 74px;
+    max-height: 74px;
+    background-color: rgb(246, 246, 246);
+    background-size: cover;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review-wrapper {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(182, 182, 189, 1) 100%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.review-wrapper:not(:last-child) {
+    margin: 0px 50px 0px 0px;
+}
+.review-wrapper p:last-child {
+    font-style: italic;
+    font-size: 15px;
+}
+.row-wrapper {
+    display: flex;
+}
+
+.personImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.slick-dots {
+    display: none !important;
+}
+.slick-prev {
+    margin-left: 30px;
+    z-index: 990;
+}
+.slick-next {
+    margin-right: 30px;
+    z-index: 990;
+}
+
+.privateEventsReviews .container {
+    padding-right: 15px !important;
+}
+
+@media all and (max-width: 350px) {
+    .review-wrapper {
+        min-width: 250px !important;
+    }
+}

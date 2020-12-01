@@ -1,0 +1,22 @@
+.paymentForm{
+    margin-top: 86px;
+}
+.multistepForm{
+    margin-top:26px;
+}
+.paymentInfo-top{
+    display:none !important;
+}
+
+@media all and (max-width: 992px){
+    .paymentInfo-top{
+        display:block !important;
+    }
+    .paymentInfo-bottom{
+        display: none !important;
+    }
+    .paymentForm .container-fluid{
+        padding-left: 25px !important;
+        padding-right: 0px !important;
+    }
+}

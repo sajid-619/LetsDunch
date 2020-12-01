@@ -1,0 +1,23 @@
+.paymentStatus__title{
+    margin-bottom: 40px; 
+}
+.check-mark{
+    color:#ff595e !important;
+}
+.message-text{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.paymentInfo-container{
+    background: #d3d3d36b;
+    padding: 20px;
+    border-radius: 3px;
+}
+.paymentInfo-container p{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}

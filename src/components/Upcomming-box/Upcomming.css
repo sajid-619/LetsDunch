@@ -1,0 +1,120 @@
+.img__box {
+}
+.upcomming__img {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.upcomming__date {
+    position: absolute;
+    top: 29.9%;
+    left: 5%;
+    display: inline-block;
+    color: white;
+    background: #0000008f;
+    font-size: 21px;
+    width: 89.3%;
+    padding: 5px;
+    text-align: right;
+    margin-left: 1px;
+}
+.upcomming__place {
+    margin-bottom: 5px;
+}
+
+.joinedNumber {
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.upcomming__info {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.upcomming__title {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.upcomming .MuiAvatar-root {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 0.9rem !important;
+}
+.available {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.button {
+    border: none;
+    padding: 6px 17px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px #80808070;
+}
+
+.landing__upcomming-box .my-4 {
+    margin-bottom: 2rem !important;
+}
+
+@media all and (max-width: 1200px) {
+    .upcomming__date {
+        position: absolute;
+        top: 29.9%;
+        left: 6%;
+        font-size: 16px;
+        width: 87.3%;
+    }
+}
+@media all and (max-width: 992px) {
+    .upcomming__date {
+        position: absolute;
+        top: 31.9%;
+        left: 4%;
+        font-size: 16px;
+        width: 91.3%;
+    }
+}
+@media all and (max-width: 768px) {
+    .upcomming__date {
+        position: absolute;
+        top: 33.9%;
+        left: 2.6%;
+        font-size: 16px;
+        width: 94.3%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .landing__upcomming--title {
+        font-size: 20px !important;
+    }
+}
+@media all and (max-width: 400px) {
+    .landing__upcomming--title {
+        font-size: 18px !important;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .upcomming__date {
+        position: absolute;
+        top: 31.9%;
+        left: 3%;
+        font-size: 16px;
+        width: 93.3%;
+    }
+}
+@media all and (max-width: 322px) {
+    .upcomming__date {
+        position: absolute;
+        top: 31.9%;
+        left: 5%;
+        font-size: 16px;
+        width: 89.3%;
+    }
+}

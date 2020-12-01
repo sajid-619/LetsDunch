@@ -1,0 +1,138 @@
+.profile {
+    margin-top: 86px;
+}
+.container-fluid {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.profile__image--box {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+
+.profile__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.edit-box {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e63946;
+    border-radius: 50%;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    top: 55%;
+    left: 69.5%;
+    cursor: pointer;
+}
+.image-edit {
+    font-size: 1.3rem !important;
+}
+.file-input {
+    display: none;
+}
+label {
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+.input-group-text {
+    background: white !important;
+}
+.form-box {
+    margin-top: 70px;
+}
+.form-box label {
+    font-weight: 700;
+}
+.select-box {
+    color: gray;
+    padding: 6px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+.select-box:not(:last-child) {
+    margin-right: 15px;
+}
+.box-title {
+    color: gray;
+}
+.select-box-right {
+    background: #eeeeee30;
+    padding: 0 16px 0 16px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.select {
+    background-color: #ff595e !important;
+    color: white;
+    border: 1px solid transparent !important;
+}
+.box-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.profile__submit--button2 {
+    display: none !important;
+}
+
+@media all and (max-width: 992px) {
+    .profile__submit--button2 {
+        display: block !important;
+    }
+    .profile__submit--button1 {
+        display: none !important;
+    }
+    .form-box {
+        margin-top: 0px;
+    }
+    .profile__image--box {
+        margin: 0 auto;
+    }
+    .profile__name {
+        text-align: center;
+    }
+    .profile__right__title {
+        text-align: center;
+    }
+    .profile__submit--button2 .button2 {
+        display: block !important;
+    }
+    .profile__submit--button2 {
+        text-align: center;
+    }
+    .profile__submit--button2 button {
+        margin-top: 25px;
+    }
+    .verify-button {
+        padding: 7px 24px;
+    }
+    .profile .col-md-12:not(:last-child) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .profile .container-fluid {
+        padding-right: 11px !important;
+        padding-left: 40px !important;
+    }
+}

@@ -1,0 +1,19 @@
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.text{
+    margin-top: 25px;
+}
+.text h5{
+    text-transform: uppercase;
+    color: #ff595e;
+}
+.check{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #ff595e;
+}
+.text h4{
+    margin-bottom: 20px !important;
+}

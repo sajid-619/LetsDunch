@@ -1,0 +1,15 @@
+.celebration-image{
+    background-size: cover !important;
+    height: 270px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.discover{
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}

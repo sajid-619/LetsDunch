@@ -1,0 +1,33 @@
+.popular__image {
+    height: 85px;
+    border-radius: 16px;
+    max-width: 99px;
+}
+.popular .MuiAvatar-root {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 0.9rem !important;
+}
+.text--section {
+    font-size: 14px;
+    margin-left: 15px;
+}
+.popular__title {
+    font-size: 1rem;
+}
+
+.button-white {
+    background-color: white !important;
+    box-shadow: 0 5px 20px #80808070;
+}
+.popular__dunchedNumber {
+    font-size: 12px !important;
+    margin-left: 5px !important;
+    margin-bottom: 0 !important;
+}
+
+@media all and (max-width: 400px) {
+    .popular__right--section {
+        display: none;
+    }
+}

@@ -1,0 +1,103 @@
+.logo {
+    height: 55px;
+}
+.nav-link {
+    font-size: 15px !important;
+    color: #6e6e6e !important;
+    transition: 0.4s;
+    backface-visibility: hidden;
+    cursor: pointer;
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar {
+    transition: all 0.4s !important;
+    padding: .8rem 1rem !important;
+}
+.grayNavbar {
+    background: #011627;
+}
+
+.colorNavbar {
+    background-color: white !important ;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.836) !important;
+}
+
+.grayNavbar .navbar-toggler-icon {
+    color: white !important;
+}
+.colorNavbar .navbar-toggler-icon {
+    color: black !important;
+}
+
+.colorNavbar .nav-link {
+    color: black !important;
+}
+.grayNavbar .nav-link {
+    color: lightgray !important;
+}
+
+.colorNavbar .signup {
+    border: 1px solid #ff595e !important;
+    color: #ff595e !important;
+}
+.grayNavbar .signup {
+    border: 1px solid lightgray !important;
+}
+.grayNavbar .signup:hover {
+    border: 1px solid #ff595e !important;
+}
+
+.nav-link:hover {
+    color: #ff595e !important;
+}
+.popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 12%;
+    left: 0%;
+    z-index: 2000;
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    z-index: 3000 !important;
+}
+
+.signup {
+    border: 1px solid #6e6e6e !important;
+    border-radius: 26px !important;
+    padding: 8px 16px !important;
+    margin-left: 23px !important;
+}
+
+.grayNavbar .toggle__icon {
+    background: white !important;
+}
+
+@media all and (max-width: 330px) {
+    .logo {
+        height: 45px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .nav-link:hover {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff595e !important;
+        color: white !important;
+        border-radius: 3px;
+        transform: none;
+        padding-left: 20px !important;
+    }
+}

@@ -1,0 +1,29 @@
+.popover{
+    max-width: 300px !important;
+    width: 300px;
+    z-index: 9999 !important;
+}
+.popover-header{
+    width: 100% !important;
+    background: white !important;
+    color: black !important;
+    font-size: 18px !important;
+}
+.public{ 
+    color: #ff595e !important;
+    margin-right: 5px !important;
+}
+.items{
+    height: 400px !important;
+    overflow-y: scroll !important;
+}
+.see-all{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.fade {
+    transition: opacity .15s cubic-bezier(0, 0, 0.46, 1.15) !important;
+}
+.popover-header {
+    padding: 1rem 1rem !important;
+}

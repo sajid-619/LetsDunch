@@ -1,0 +1,30 @@
+.expectBox{
+    margin-top: 50px;
+}
+
+.expectBox h5{
+    margin-bottom: 10px !important;
+}
+
+.review-box {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 25px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+}
+.review-box p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.review-box .MuiSvgIcon-root {
+    color: #ff595e !important;
+}
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+

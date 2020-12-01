@@ -1,0 +1,34 @@
+.privacy{
+    margin-top: 100px;
+    color: gray;
+}
+.privacy span{
+    font-weight: bold;
+}
+.privacy img{
+    width: 100%;
+    height: auto;
+   
+}
+.back{
+    background: #ff595e;
+    color: white !important;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+.company-details-text{
+    margin-top: 20px !important;
+}
+.important-details{
+    margin-top: 50px;
+    
+}
+.important-details p{
+    margin-top: 20px;
+}
+.privacy h3{
+    color: black;
+}
+.privacy h5{
+    color:black;
+}

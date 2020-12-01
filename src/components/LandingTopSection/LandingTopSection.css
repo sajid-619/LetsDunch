@@ -1,0 +1,335 @@
+.landing__search-box {
+  box-shadow: 0 5px 20px rgba(128, 128, 128, 0.493);
+}
+.landing {
+  background-color: #f2f3f5;
+  z-index: -2 !important;
+  margin-top: 81px;
+}
+.landing__top {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.landing-top-video-container {
+  max-height: 670px;
+  height: 670px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+.landing-top-title {
+  font-size: 65px !important;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 12px 23px black;
+}
+.landing-top-subtitle {
+  font-size: 25px !important;
+  text-align: center;
+  margin-top: 0px !important;
+  text-shadow: 0px 12px 23px black;
+}
+
+.landing-top-wrapper {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding: 180px 80px 100px 80px;
+  background-position-y: 55%;
+  z-index: 9999 !important;
+  /* animation-name: animateImage .20s ease-in;
+  animation-duration: 10s; */
+}
+
+.landing__logo {
+  height: 130px;
+  object-fit: contain;
+}
+.landing__search-box {
+  margin-top: 40px !important;
+  background: white;
+  padding: 20px 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
+  width: 98.8%;
+  color: black !important;
+}
+
+.search-box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-box .search-restaurants {
+  border: none;
+  width: 88%;
+}
+.search-box .search-restaurants:focus {
+  outline: none;
+}
+.search-box .app {
+  width: 100%;
+}
+
+.tip {
+  display: inline-block;
+  font-size: 0.9em;
+  color: black;
+  opacity: 0;
+  transform: translateY(2px);
+  transition: all 0.25s;
+  background: white;
+  position: absolute;
+  top: 98px;
+  left: -5.6px;
+  padding: 20px;
+  border-radius: 4px;
+  border-bottom: 1px solid lightgrey;
+}
+.is-focused .tip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tip-container {
+  background: #ecececcf;
+  padding: 15px;
+  text-align: center;
+}
+
+.tip-container h5 {
+  font-size: 16px !important;
+  margin-bottom: 19px !important;
+}
+
+.tip-container button {
+  color: white;
+  background: #ff595e;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.tip-container button:focus {
+  outline: none;
+}
+
+.tip-container button .MuiSvgIcon-root {
+  color: white !important;
+}
+
+.search__title {
+  font-weight: 500;
+}
+
+.search-box .MuiSvgIcon-root {
+  color: gray !important;
+}
+
+.select-guest {
+  border: none !important;
+  width: 88% !important;
+  color: gray;
+  background: transparent;
+}
+.react-datepicker__input-container input:focus {
+  outline: none !important;
+}
+.select-guest:focus {
+  outline: none;
+}
+
+.react-datepicker-wrapper {
+  width: 86% !important;
+  margin-left: 5px !important;
+}
+
+.react-datepicker__input-container input {
+  border: none;
+  width: 100%;
+}
+
+.search-box-button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.search-box-button-container button {
+  border-radius: 30px !important;
+  padding: 14px 36px !important;
+  transition: all 0.8s ease-out;
+}
+.search-box-button-container button:focus {
+  outline: none !important;
+}
+.search-box-button-container button:active {
+  transform: translateY(8px);
+}
+
+.react-datepicker__day--selected {
+  border-radius: 0.3rem !important;
+  background-color: #ff595e !important;
+  color: #fff !important;
+}
+.react-datepicker__day--selected:hover {
+  background-color: #fc484e !important;
+}
+
+.react-datepicker__header {
+  background-color: white !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 2rem !important;
+}
+
+@media all and (max-width: 1200px) {
+  .landing__title {
+    font-size: 36px;
+  }
+  .explore__title {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .landing-top-wrapper {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .search-box-button-container {
+    margin-top: 13px !important;
+  }
+  .tip {
+    z-index: 100;
+  }
+}
+@media all and (max-width: 992px) {
+  .landing__title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .lets-dunch {
+    text-align: center;
+  }
+  .explore__title {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  .landing-top-wrapper {
+    display: block !important;
+    padding: 100px 80px 100px 80px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .landing__title br {
+    display: none;
+  }
+  .landing__title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .landing__top {
+    width: 100%;
+  }
+  .landing-top-title {
+    font-size: 50px !important;
+  }
+  .landing-top-subtitle {
+    font-size: 20px !important;
+  }
+}
+
+@media all and (max-width: 622px) {
+  .landing-top-wrapper {
+    padding: 100px 30px 100px 40px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .landing__title {
+    font-size: 22px;
+  }
+  .lets-dunch {
+    font-size: 36px;
+  }
+  .landing__search-box {
+    font-size: 14px;
+  }
+  .landing__search-box button {
+    font-size: 13px;
+  }
+  .landing-top-title {
+    font-size: 35px !important;
+    text-shadow: 0px 4px 9px black;
+  }
+  .landing-top-subtitle {
+    font-size: 16px !important;
+    text-shadow: 0px 4px 9px black;
+  }
+}
+
+@media all and (max-width: 419px) {
+  .search-box-button-container {
+    margin-bottom: 15px !important;
+    margin-top: 7px !important;
+  }
+}
+
+@media all and (max-width: 415px) {
+  .landing__search-box {
+    padding: 10px 10px;
+  }
+  .landing__search-box input {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+  .landing__search-box button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .landing-top-wrapper {
+    padding: 100px 15px 100px 20px;
+  }
+}
+@media all and (max-width: 330px) {
+  .landing {
+    margin-top: 72px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .landing-top-wrapper {
+    padding: 100px 5px 100px 9px;
+  }
+  .landing-top-title {
+    font-size: 30px !important;
+  }
+}
+
+@media all and (max-width: 322px) {
+  .explore__title {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+
+@keyframes animateImage {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

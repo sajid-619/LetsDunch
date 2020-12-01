@@ -1,0 +1,53 @@
+.privateEventSlider .carousel .thumbs-wrapper {
+    display: none !important;
+}
+.privateEventSlider .carousel .control-dots {
+    display: none !important;
+}
+.privateEventSlider .carousel .carousel-status {
+    display: none !important;
+}
+.privateEventSlider .carousel.carousel-slider {
+    height: 300px !important;
+}
+.privateEventSlider .carousel .slide {
+    height: 330px !important;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.intro h4 {
+    font-size: 20px !important;
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 630px) {
+    .intro h3 {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .privateEventSlider .carousel.carousel-slider {
+        height: 230px !important;
+    }
+}
+@media all and (max-width: 410px) {
+    .intro h3 {
+        font-size: 18px !important;
+    }
+    .intro h4 {
+        font-size: 16px !important;
+    }
+    .privateEventSlider .carousel.carousel-slider {
+        height: 180px !important;
+    }
+}

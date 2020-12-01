@@ -1,0 +1,77 @@
+.suggested .makeStyles-media-2 {
+    height: 220px !important;
+    position: relative;
+    filter: blur(2px) brightness(0.6);
+}
+.MuiCardContent-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white !important;
+}
+.MuiCardContent-root:focus {
+    outline: 0 !important;
+}
+.MuiTypography-colorTextSecondary {
+    color: white !important;
+}
+
+.suggested .MuiTypography-h6 {
+    font-size: 1.1rem !important;
+}
+.suggested .MuiSvgIcon-root {
+    width: 0.8em !important;
+    height: 0.8em !important;
+}
+.suggested .MuiAvatar-root {
+    width: 35px !important;
+    height: 35px !important;
+}
+.joinedPeople {
+    margin-top: 70px;
+}
+.suggested .MuiCardActions-root {
+    padding: 9px 15px !important;
+    font-size: 14px;
+}
+.suggested .MuiCardActions-root p {
+    margin-bottom: 0.5rem !important;
+}
+
+.ui-button {
+    background-color: #d3d3d37a !important;
+    box-shadow: 0 5px 20px #80808070;
+}
+
+@media all and (max-width: 992px) {
+    .makeStyles-root-1 {
+        max-width: 100% !important;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .see-all {
+        font-size: 13px;
+    }
+    .see-all .MuiSvgIcon-root {
+        font-size: 1rem !important;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .joinedPeople {
+        margin-top: 55px;
+    }
+    .suggested .MuiTypography-h6 {
+        font-size: 16px !important;
+    }
+    .joinedPeople span {
+        font-size: 13px !important;
+    }
+    .action {
+        font-size: 13px !important;
+    }
+    .card-actions button {
+        font-size: 13px !important;
+    }
+}

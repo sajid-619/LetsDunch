@@ -1,0 +1,39 @@
+.peoples{
+    cursor: pointer;
+    width: fit-content;
+}
+.peoples p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.communication-section .authenticated-button{
+    color: #ff595e !important;
+    border-color: #ff595e !important;
+    margin-right: 40px !important;
+}
+.communication-section .authenticated-icon{
+    color: gray !important;
+    cursor: not-allowed !important;
+}
+.communication-section .communication-button{
+    color: gray !important;
+    border-color: gray !important;
+    margin-right: 40px !important;
+    cursor: not-allowed !important
+}
+.communication-section .communication-icon{
+    color: gray !important;
+    cursor: not-allowed !important;
+}
+.unAuthenticated-message{
+    font-size: 10px;
+    background: #ff5a5f;
+    padding: 2px 8px;
+    color: white;
+    border-radius: 20px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}

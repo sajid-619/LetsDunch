@@ -1,0 +1,31 @@
+.landing__explore-box .col-lg-4,
+.landing__explore-box .col-md-4 {
+    padding-right: 0px !important;
+}
+
+.landing__explore-box {
+    color: black !important;
+    padding-top: 55px !important;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.landing__explore--title {
+    margin-bottom: 35px !important;
+}
+
+.explore-box-container {
+    width: 350px;
+}
+
+@media all and (max-width: 500px) {
+    .explore-box-container {
+        width: 280px;
+    }
+}

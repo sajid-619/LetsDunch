@@ -1,0 +1,22 @@
+.myDunchImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.myDunch__title,
+.myDunch__date,
+.myDunch__when {
+    margin-bottom: 0;
+}
+.myDunch__title {
+    font-size: 14px;
+    font-weight: 700;
+}
+.myDunch__when {
+    margin-left: 19px;
+}
+
+.dot {
+    font-size: 1rem !important;
+}

@@ -1,0 +1,43 @@
+.privateEventsMessage {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.privateEventsMessage h4 {
+    font-size: 18px !important;
+}
+.privateEventsMessage button {
+    border: none;
+    background: #ff595e;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.privateEventsMessage button:focus {
+    outline: none;
+}
+
+@media all and (max-width: 630px) {
+    .privateEventsMessage h3 {
+        font-size: 22px !important;
+    }
+    .privateEventsMessage h4 {
+        font-size: 16px !important;
+    }
+    .privateEventsMessage h4 br {
+        display: none;
+    }
+}
+@media all and (max-width: 410px) {
+    .privateEventsMessage h3 {
+        font-size: 18px !important;
+    }
+    .privateEventsMessage h4 {
+        font-size: 13px !important;
+    }
+    .privateEventsMessage {
+        padding: 20px !important;
+    }
+}

@@ -1,0 +1,9 @@
+.box-container {
+    margin-bottom: 30px;
+}
+
+@media all and (max-width: 500px) {
+    .landing__popular--dunch {
+        font-size: 20px !important;
+    }
+}

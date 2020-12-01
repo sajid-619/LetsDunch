@@ -1,0 +1,51 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.right-side{
+    width: 434px;
+    margin: 0 auto;
+}
+
+.verify-input{
+    width: 50px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 3px;
+}
+.verify-heading{
+    margin-top: 50px;
+}
+
+.verify-text{
+    margin-top: 25px;
+    font-size: 14px;
+    color: black;
+}
+.verify-box{
+    margin: 25px 0px;
+}
+.verify-button{
+    padding: 7px 60px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px #80808070;
+}
+.verify-conclusion{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+@media all and (max-width: 768px){
+    .verify-heading, .verify-text, .verify-conclusion, .verify-form{
+        text-align: center;
+    }
+}

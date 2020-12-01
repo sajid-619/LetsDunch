@@ -1,0 +1,8 @@
+.eventShare{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eventShare li{
+    float:left !important;
+}

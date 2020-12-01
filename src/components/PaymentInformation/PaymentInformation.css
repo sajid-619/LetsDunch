@@ -1,0 +1,79 @@
+.paymentInformation{
+    background-color: #d3d3d445;
+    height: 100vh;
+    padding: 15px 35px;
+    overflow-y: scroll;
+}
+.paymentInformation__title{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.items-img-box{
+    width: 125px;
+    height: 81px;
+    border-radius: 3px;
+}
+.items-img{
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+.item-name{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.item-price{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+.item-info{
+    margin-left: 10px;
+}
+.items-box{
+    margin-top: 50px;
+}
+
+.price-section{
+    margin-top: 130px;
+}
+
+.quantity-section{
+    padding: 10px 0px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.quantity-section p{
+    margin-bottom: 0;
+}
+
+.quantity-section input{
+    width: 15%;
+    border: none;
+    background: transparent;
+}
+.quantity-section input:focus{
+    outline:none;
+}
+.total{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    font-weight: 600;
+}
+@media all and (max-width: 992px){
+    .quantity-section input{
+        width: 6%;
+    }
+}
+@media all and (max-width: 992px){
+    .quantity-section input{
+        width: 6%;
+    }
+}
+@media all and (max-width: 400px){
+    .paymentInformation {
+        padding: 15px 8px;
+    }
+}

@@ -1,0 +1,91 @@
+.bookEvent{
+    max-width: 50%;
+    width: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    max-height: 85vh;
+    overflow-y: scroll;
+    color: black;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+
+}
+.title-section{
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgray;
+}
+.title-section h3{
+    margin-bottom: 0;
+}
+.title-section span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.event-image{
+    width: 100%;
+    height: auto;
+}
+.img-box{
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+}
+.interested-box{
+    border-bottom: 1px solid lightgray;
+}
+.interested-box span{
+    cursor: pointer;
+}
+
+.thali--title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.atc-section p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color:#838383;
+}
+.icon{
+    font-size: 1rem !important;
+}
+.controlPointIcon{
+    font-size: 2.8rem !important;
+    cursor: pointer;
+}
+
+@media all and (max-width: 992px){
+    .bookEvent{
+        max-width: 70%;
+        width: 70%;
+    }
+}
+@media all and (max-width: 768px){
+    .bookEvent{
+        max-width: 80%;
+        width: 80%;
+    }
+}
+@media all and (max-width: 630px){
+    .bookEvent{
+        max-width: 90%;
+        width: 90%;
+    }
+    .avatar-box{
+        flex-wrap: wrap;
+    }
+    .bookEvent .interested-box{
+        display:block !important;
+        text-align: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .interested-box button{
+        margin-top: 15px;
+    }
+}

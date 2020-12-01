@@ -1,0 +1,103 @@
+.events {
+    margin-top: 80px;
+    position: relative;
+}
+.events__slider-section {
+}
+.events-slider-box {
+    width: 100% !important;
+    max-height: 520px !important;
+}
+.events-image {
+    width: 100%;
+}
+.heart-share-icon {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+.heart-share-icon .MuiSvgIcon-root {
+    color: #ff5953 !important;
+}
+.heart-share-icon span {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.heart-share-icon span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.sticky {
+    transform: translateZ(0px);
+    top: 100px !important;
+    width: 345px;
+    position: fixed;
+}
+.responsive-wrapper {
+    margin-bottom: 0px !important;
+    padding: 10px 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.responsive__book__part {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.button-wrapper button {
+    background: #ff5953;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+
+.copy {
+    color: white;
+    display: block;
+    text-align: center;
+    background: #ff595e;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 27px;
+}
+
+@media all and (max-width: 1200px) {
+    .responsive__book__part {
+        display: block;
+    }
+    .rightSection {
+        display: none;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .makeStyles-root-1 {
+        width: 80%;
+    }
+    .input-button {
+        flex-direction: column;
+    }
+    .input-button input {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media all and (max-width: 300px) {
+    .responsive-wrapper {
+        padding: 10px 10px !important;
+    }
+    .button-wrapper button {
+        font-size: 13px;
+        padding: 8px 8px;
+    }
+}

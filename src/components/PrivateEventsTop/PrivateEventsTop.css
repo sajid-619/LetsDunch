@@ -1,0 +1,126 @@
+.privateEventsTop {
+    min-height: 370px;
+    text-align: center;
+    position: relative;
+}
+.privateEventsTopImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.71) 100%),
+        url("../../img/private-events-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px !important;
+}
+.private-events-search-box {
+    background-color: white;
+    margin-top: 35px;
+}
+.private-events-search-box input {
+    border: none;
+}
+.private-events-search-box input:focus {
+    outline: none;
+}
+.private-search-box {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    border-radius: 5px !important;
+}
+.private-events-search-box .col-md-1,
+.col-md-2 {
+    padding: 0 !important;
+}
+.private-events-search-box .search {
+    border: none;
+    background: #ff595e;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.private-events-search-box .MuiSvgIcon-root {
+    color: #ff595e !important;
+    font-size: 30px !important;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.text-box h4 {
+    color: white;
+}
+
+.private-event-button {
+    border: none;
+    background: #ff595e;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    display: none;
+    margin-top: 40px !important;
+}
+.private-event-button:focus {
+    outline: none;
+}
+
+@media all and (max-width: 992px) {
+    .private-events-search-box {
+        display: none;
+    }
+    .private-event-button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 630px) {
+    .text-box h1 {
+        font-size: 40px;
+    }
+    .text-box h4 {
+        font-size: 18px;
+    }
+    .text-box h4 br {
+        display: none;
+    }
+}
+
+@media all and (max-width: 410px) {
+    .text-box h1 {
+        font-size: 30px;
+    }
+    .text-box h4 {
+        font-size: 16px;
+    }
+    .private-event-button {
+        font-size: 14px !important;
+    }
+    .private-events {
+        margin-top: 77px !important;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .privateEventsTopImage {
+        padding: 5px;
+    }
+    .private-event-button {
+        font-size: 13px !important;
+        padding: 15px 15px;
+    }
+}
+@media all and (max-width: 370px) {
+    .makeStyles-paper-1 {
+        width: 95vw !important;
+    }
+}

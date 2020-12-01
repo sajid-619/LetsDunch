@@ -1,0 +1,128 @@
+.price-container span {
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+.price-container {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px !important;
+}
+
+.eventRightSection__request-a-book-section {
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.meet-section{
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.starIcon {
+    font-size: 1rem !important;
+    color: #ff595e !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.eventRightSection__request-a-book-section .start {
+    font-size: 13px;
+    display: flex;
+}
+.eventRightSection__request-a-book-section h5 {
+    margin-top: 13px !important;
+    font-size: 17px !important;
+}
+
+.eventRightSection__button-box {
+    width: 100%;
+}
+
+.eventRightSection__button-box button {
+    width: 100%;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid #ff595e;
+    color: #ff595e;
+    border-radius: 4px;
+}
+.eventRightSection__button-box button:focus {
+    outline: none;
+}
+
+.safety-box {
+    margin-top: 20px;
+    background: #ebfaf9;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: #ff595e;
+    cursor: pointer;
+}
+.share {
+    margin-top: 15px;
+    color: #ff595e;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.share .MuiSvgIcon-root {
+    font-size: 1.2rem !important;
+    cursor: pointer;
+}
+
+.question{
+    padding: 0px 10px;
+}
+
+.question p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.question p span{
+    color: #ff595e;
+}
+
+.question p .MuiSvgIcon-root{
+    color: #ff595e;
+    font-size: 1.2rem !important;
+}
+
+.meet-section .MuiAvatar-root{
+    margin-right:10px !important;
+}
+.meetPersonName{
+    margin-left: 5px;
+    color: #ff595e;
+}
+
+.meet-section .details{
+    margin-top: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+.button-container{
+    display: block;
+    float: right;
+    margin-right: 17px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.button-container button{
+    border:none;
+    background: #ff595e;
+    color: white ;
+    padding: 8px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,.2);
+}
+.button-container button:focus{
+    outline: none;
+}

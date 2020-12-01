@@ -1,0 +1,29 @@
+.login-button{
+    padding: 6px 50px !important;
+    box-shadow: 0 5px 20px #80808070;
+}
+.business-user{
+    width: 420px;
+    border: 1px solid #0077b6;
+    color: #0077b6;
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.terms{
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media all and (max-width: 768px){
+    .business-user{
+        width: 286px;
+        margin: 0 auto;
+        display: block;
+        font-size: 15px;
+           
+    }
+}
